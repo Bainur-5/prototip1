@@ -265,20 +265,116 @@ body{
     width: 82%;
     margin-top: 0;
     border: 1px solid white;
+}@media screen and (max-width:1079px){
+    .contact_nav{
+        margin:0  20%;
+        flex-wrap: wrap;
+    }
+    .ntb{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width:850px ){
-    .android{
-        width: 100%;
-        margin: 5% 0;
-    }
-    .fron_end{
-        width: 100%;
-        margin: 5% 0;
+    .curs{
+        padding: 0;
     }
     .uslovia1 {
         width: 40%;
     }
-    .eshe .uslovia_1{
+    .eshe{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .eshe .uslovia_2{
         width: 40%;
+    }
+    .kurses{
+        width: 40%;
+    }
+    .footer_contact{
+        width: 40%;
+    }
+    .footer_zayavka{
+        width: 60%;
+    }
+    .ntb{
+        height: auto;
+    }
+    .gg_title h1{
+        font-size: 30px;
+    }
+    .gg_title p{
+        font-size: 13px;
+    }
+    .links a i{
+        font-size: 132%;
+    }
+    .content_title{
+        font-size: 180%;
+    }
+    .contact_conteiner h1{
+        font-size: 160%;
+    }
+    .title h1{
+        font-size: 200%;
+    }
+    .title p{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:660px){
+    .android{
+        width: 80%;
+        margin: 5% auto;
+    }
+    .fron_end{
+        width: 80%;
+        margin: 5% auto;
+    }
+    .uslovia{
+        padding: 1%;
+    }
+    .uslovia1 div h1{
+        font-size: 20px;
+    }
+    .ntb_img{
+        width: 100%;
+    }
+    .ntb_text{
+        width: 100%;
+    }
+}
+@media screen and (max-width:505px){
+    .gg_title h1{
+        font-size: 20px;
+    }
+    .kurses{
+        width: 100%;
+    }
+    .footer_zayavka{
+        width: 100%;
+    }
+    .footer_contact{
+        width: 100%;
+    }
+}
+@media screen and (max-width:420px){
+    .uslovia1{
+        width: 100%;
+        text-align: center;
+    }
+    .uslovia1 div{
+        text-align: left;
+    }
+    .eshe .uslovia_2{
+        width: 100%;
+    }
+}
+@media screen and (max-width:380px){
+    .gg_bg{
+        height: auto;
     }
 }
