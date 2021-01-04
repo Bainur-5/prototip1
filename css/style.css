@@ -306,6 +306,9 @@ body{
     .gg_title h1{
         font-size: 30px;
     }
+    .gg_title h3{
+        font-size: 22px;
+    }
     .gg_title p{
         font-size: 13px;
     }
