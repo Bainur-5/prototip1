@@ -1,0 +1,20 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+.java_content{
+    padding: 5% 22%;
+}
+.kurs{
+    padding: 5% 22%
+}
+.sd_kurs{
+    width: 100%;
+    text-align: center;
+}
+.ssdd_kurs{
+    margin: auto;
+    padding: 4% 20% ;
+    background-color: rgb(231, 231, 231);
+    margin: 4% 0;
+}

@@ -1,0 +1,284 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    /* background: url('https://lh3.googleusercontent.com/proxy/aICVt6iJbMnJQxFj2WqASvx8i4o0NAfHyw-J_Z0UUM3Eqohto0lb6P85vFF21JIzWNV5JR6k0QaRl10r_XreYKSbgHXYKgawEvKSWWMw6ojT4QQ1UWrdiaYw5SYmi3lu7fUe8ySa6Q') center/cover no-repeat fixed; */
+    background-color: white;
+}
+.gg_bg{
+    background: url('https://i.ytimg.com/vi/9A4m0xzGOqM/maxresdefault.jpg') center/ cover no-repeat;
+    height: 100vh;
+}
+.gg_title{
+    padding-top: 2%;
+    padding-left: 3.7%;
+    width: 45%;
+    color: white;
+}
+.gg_title p{
+    margin-bottom: 15%;
+}
+.gg_title a{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    padding: 2% 5%;
+    border: 1px solid white;
+    text-align: center;
+    transition: .5s;
+    
+}
+.gg_title a:hover{
+    background-color: white;
+    color: black;
+    text-overflow: none;
+    text-decoration: none;
+
+}
+/* links */
+.links{
+    padding-top: 2%;
+    padding-left: 3.7%;
+    color: white;
+}
+.links a{
+    text-decoration: none;
+    text-transform: none;
+}
+.links a i{
+    color: white;
+    font-size: 200%;
+}
+/*  */
+.zayav{
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    padding: 2% 2%;
+    border-radius: 500px;
+    background: rgba(0, 72, 255, 0);
+    background: linear-gradient(313deg, rgba(0,74,255,1) 11%, rgba(111,157,246,1) 39%, rgba(173,202,255,1) 68%);
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.zayav:hover{
+    padding: 2% 3%;
+}
+/* курсы */
+.curs{
+    height: auto;
+    padding: 3% 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.android{
+    background: url('https://globaxi.ru/Content/img/background.jpg') center/cover no-repeat;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    position: relative;
+    transition: .5s;
+    color: white;
+    box-shadow: 0 -25px 40px grey;
+}
+.android img{
+    width: 40%;
+    margin: auto;
+}
+.fron_end{
+    transition: .5s;
+    width: 40%;
+    height: auto;
+    padding: 2%;
+    position: relative;
+    background: url('https://globaxi.ru/Content/img/background.jpg') center/cover no-repeat;
+    color: white;
+    box-shadow: 0 -25px 40px grey;
+}       
+.fron_end img{
+    width: 100%;
+}
+.title{
+    position: absolute;
+    bottom: 0;
+}
+/*  */
+.nujno_obichenia{
+    padding: 2% 7%;
+}
+.ntb{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 40vh;
+}
+.ntb_text{
+    width: 40%;
+}
+.ntb_img{
+    width: 40%;
+}
+/*  */
+.us_ob{
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.content_title{
+    margin: 5% 0 2% 0;
+}
+.uslovia{
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.uslovia1{
+    width: 30%;
+}
+.uslovia1 i{
+    font-size: 30px;
+    background: rgb(147,176,255);
+    background: linear-gradient(332deg, rgba(147,176,255,1) 22%, rgba(74,126,255,1) 44%, rgba(0,112,255,1) 68%);
+    padding: 3% 5%;
+    color: white;
+}
+.uslovia1 div h1{
+    font-size: 20px;
+}
+.eshe{
+    display: flex;
+    justify-content: space-between;
+}
+.eje{
+    width: 100%;
+    text-align: center;
+}
+.eje h3 a{
+    padding: 1% 3%;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    background: rgb(147,176,255);
+    background: linear-gradient(332deg, rgba(147,176,255,1) 22%, rgba(74,126,255,1) 44%, rgba(0,112,255,1) 68%);
+    transition: .5s;
+}
+.eje h3 a:hover{
+    background: rgb(0,74,255);
+    background: linear-gradient(313deg, rgba(0,74,255,1) 11%, rgba(111,157,246,1) 39%, rgba(173,202,255,1) 68%);
+}
+/*  */
+.zajvka{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .5% 10%;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.name{
+    width: 48%;
+    margin: 1%;
+}
+.forms{
+    width: 100%;
+    margin: 1%;
+}
+.forms input{
+    width: 100%;
+    border-radius: 50px;
+    padding: 1% 2%;
+    border: 1px solid grey;
+}
+.name input{
+    padding: 2% 2%;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 50px;
+}
+.form_buttom{
+    width: 48%;
+    margin: auto;
+}
+.form_buttom input{
+    width: 100%;
+    padding: 3% 0%;
+    border: 1px solid rgba(255, 235, 205, 0);
+    border-radius: 50px;
+    background-color: honeydew;
+}
+.radio{
+    width: 100%;
+}
+.radio input{
+    margin-left: 13%;
+}
+.content_zajvka{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    margin: 0 10%;
+    padding: 2% 10%;
+    background-color: rgba(161, 161, 161, 0.219);
+}
+/*  */
+.contact_nav{
+    display: flex;
+    margin: 0 30%;
+    justify-content: space-between;
+}
+/*  */
+.footer{
+    background-color: black;
+    padding: 3% 9%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.kurses{
+    width: 28%;
+}
+.kurses hr{
+    border: 1px solid grey;
+}
+.footer_contact{
+    width: 28%;
+    color: white;
+}
+.footer_zayavka{
+    width: 28%;
+}
+.footer_zayavka .form .name{
+    width: 100%;
+    color: white;
+}
+.footer_zayavka .form .radio{
+    color: white;
+}
+.vsp{
+    background-color: black;
+    height: 20vh;
+}
+.vsp hr{
+    width: 82%;
+    margin-top: 0;
+    border: 1px solid white;
+}
+@media screen and (max-width:850px ){
+    .android{
+        width: 100%;
+        margin: 5% 0;
+    }
+    .fron_end{
+        width: 100%;
+        margin: 5% 0;
+    }
+    .uslovia1 {
+        width: 40%;
+    }
+    .eshe .uslovia_1{
+        width: 40%;
+    }
+}
